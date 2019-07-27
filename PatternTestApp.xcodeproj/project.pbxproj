@@ -13,6 +13,8 @@
 		2A07C19622EB65C6002028E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A07C19522EB65C6002028E0 /* Assets.xcassets */; };
 		2A07C19922EB65C6002028E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A07C19722EB65C6002028E0 /* LaunchScreen.storyboard */; };
 		2A07C19C22EB65C6002028E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A07C19B22EB65C6002028E0 /* main.m */; };
+		2A07C1A422EB6604002028E0 /* MyDrawView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A07C1A322EB6604002028E0 /* MyDrawView.mm */; };
+		2A07C1A622EB6C62002028E0 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A07C1A522EB6C62002028E0 /* test.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		2A07C19822EB65C6002028E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A07C19A22EB65C6002028E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A07C19B22EB65C6002028E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A07C1A222EB6604002028E0 /* MyDrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDrawView.h; sourceTree = "<group>"; };
+		2A07C1A322EB6604002028E0 /* MyDrawView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MyDrawView.mm; sourceTree = "<group>"; };
+		2A07C1A522EB6C62002028E0 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test.png; path = PatternTestApp/test.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +47,7 @@
 		2A07C18022EB65C4002028E0 = {
 			isa = PBXGroup;
 			children = (
+				2A07C1A522EB6C62002028E0 /* test.png */,
 				2A07C18B22EB65C4002028E0 /* PatternTestApp */,
 				2A07C18A22EB65C4002028E0 /* Products */,
 			);
@@ -67,6 +73,8 @@
 				2A07C19722EB65C6002028E0 /* LaunchScreen.storyboard */,
 				2A07C19A22EB65C6002028E0 /* Info.plist */,
 				2A07C19B22EB65C6002028E0 /* main.m */,
+				2A07C1A222EB6604002028E0 /* MyDrawView.h */,
+				2A07C1A322EB6604002028E0 /* MyDrawView.mm */,
 			);
 			path = PatternTestApp;
 			sourceTree = "<group>";
@@ -128,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A07C1A622EB6C62002028E0 /* test.png in Resources */,
 				2A07C19922EB65C6002028E0 /* LaunchScreen.storyboard in Resources */,
 				2A07C19622EB65C6002028E0 /* Assets.xcassets in Resources */,
 				2A07C19422EB65C4002028E0 /* Main.storyboard in Resources */,
@@ -143,6 +152,7 @@
 			files = (
 				2A07C19122EB65C4002028E0 /* ViewController.m in Sources */,
 				2A07C19C22EB65C6002028E0 /* main.m in Sources */,
+				2A07C1A422EB6604002028E0 /* MyDrawView.mm in Sources */,
 				2A07C18E22EB65C4002028E0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
